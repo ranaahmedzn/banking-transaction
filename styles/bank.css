@@ -1,0 +1,79 @@
+body{
+    font-family: 'Prompt', sans-serif;
+    background-color: #333333;
+}
+.heading{
+    text-align: center;
+    font-size: 45px;
+    color: white;
+}
+.heading span{
+    color: greenyellow;
+}
+
+.container{
+    width: 75%;
+    margin: 0 auto 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+.container div{
+    width: 100%;
+    color: white;
+    padding: 36px;
+    border-radius: 12px;
+}
+.container div h2{
+    margin: 0;
+    font-size: 25px;
+}
+.container div h1{
+    margin: 0;
+    font-size: 40px;
+}
+.deposit{
+    background-color: coral;
+}
+.withdraw{
+    background-color: dodgerblue;
+}
+.balance{
+    background-color: rgb(233, 42, 80);
+}
+
+.deposit-container{
+    background-color: blueviolet;
+}
+.withdraw-container{
+    background-color: lightseagreen;
+}
+.container div h3{
+    margin: 0 0 15px;
+    font-size: 25px;
+}
+#deposit-field, #withdraw-field{
+    display: block;
+    width: 75%;
+    margin-bottom: 20px;
+    padding: 15px 10px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.904);
+}
+#btn-deposit, #btn-withdraw{
+    padding: 12px 40px;
+    border: none;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Prompt', sans-serif;
+}
+#btn-deposit{
+    background-color: rgb(48, 13, 80);
+}
+#btn-withdraw{
+    background-color: rgb(9, 51, 49);
+}

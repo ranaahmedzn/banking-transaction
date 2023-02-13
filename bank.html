@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank</title>
+    <link rel="icon" type="image/x-icon" href="./icon/money-bag.png">
+    <!-- stylesheet link -->
+    <link rel="stylesheet" href="./styles/bank.css">
+
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- header start  -->
+    <header>
+        <h1 class="heading">Let's get some <span>Moooooneyyy!!</span></h1>
+    </header>
+
+    <!-- main start  -->
+    <main>
+        <section>
+            <div class="container">
+                <div class="deposit">
+                    <h2>Deposit</h2>
+                    <h1>$<span id="deposit-total">00</span></h1>
+                </div>
+                <div class="withdraw">
+                    <h2>Withdraw</h2>
+                    <h1>$<span id="withdraw-total">00</span></h1>
+                </div>
+                <div class="balance">
+                    <h2>Balance</h2>
+                    <h1>$<span id="balance-total">1280</span></h1>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="deposit-container">
+                    <h3>Your Deposit</h3>
+                    <input type="number" name="" id="deposit-field" placeholder="$ Your deposit amount">
+                    <button id="btn-deposit">Deposit</button>
+                </div>
+
+                <div class="withdraw-container">
+                    <h3>Your Withdraw</h3>
+                    <input type="number" name="" id="withdraw-field" placeholder="$ Your withdraw amount">
+                    <button id="btn-withdraw">Withdraw</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="./js/utilities.js"></script>
+    <script src="./js/deposit.js"></script>
+    <script src="./js/withdraw.js"></script>
+</body>
+</html>
